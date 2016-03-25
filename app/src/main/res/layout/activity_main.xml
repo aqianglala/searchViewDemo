@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.searchviewdemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:text="以下的例子均结合toolBar使用，当然我们也可以把searchView当成一个控件来使用，但一般的使用场景都是结合toolBar的。使用场景有两个，一个是在当前页面输入关键字，点击确认跳转到另一页面显示结果。另一种是在当前页面输入关键字，同时在输入框下会有关联词，这种情况一般是在首页点了搜索按钮直接跳转到第二个button页面来的。这种场景比较常见"/>
+
+    <Button
+        android:id="@+id/btn_expendable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="可伸缩的searchView"
+        />
+
+    <Button
+        android:id="@+id/btn_unExpendable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不可伸缩的searchView"
+        />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改searchView样式"
+        />
+</LinearLayout>
